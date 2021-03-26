@@ -1,6 +1,5 @@
 extends "res://Character.gd"
 
-var speed = 60
 var diagonal_speed = speed / sqrt(2)
 
 var directions_count = 0

@@ -15,8 +15,7 @@ func _ready():
 	var npc_paths = [
 		[ Vector2(97, 72) ],
 		[ Vector2(176, 57) ],
-		[ Vector2(225, 105) ],
-		[ Vector2(80, 120) ]
+		[ Vector2(80, 120), Vector2(225, 120), Vector2(225, 90) ]
 	]
 
 	for npc_path in npc_paths:

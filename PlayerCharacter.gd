@@ -10,7 +10,7 @@ var directions = {
 	"up": 0
 }
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	update_directions()
 	move_and_slide(get_movement(directions))
 
@@ -50,4 +50,7 @@ func get_movement(directions):
 	if (horizontal != 0 and vertical != 0):
 		character_speed = diagonal_speed
 
-	return Vector2(horizontal * character_speed, vertical * character_speed)
+	var movement = Vector2(horizontal * character_speed, vertical * character_speed)
+	animate_by_destination(position + movement)
+
+	return movement

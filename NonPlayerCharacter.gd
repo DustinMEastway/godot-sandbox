@@ -27,6 +27,7 @@ func move_character(delta):
 
 	update_current_point()
 	position = position.move_toward(current_point, delta * speed)
+	animate_by_destination(current_point)
 
 func update_current_point():
 	if (!is_at_current_point()):

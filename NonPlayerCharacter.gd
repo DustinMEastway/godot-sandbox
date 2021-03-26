@@ -32,8 +32,6 @@ func update_current_point():
 	if (!is_at_current_point()):
 		return
 
-	print('at point ', path.find(position), path.find(current_point))
-
 	var current_index = path.find(current_point)
 
 	if (current_index == -1):

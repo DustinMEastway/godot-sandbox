@@ -2,7 +2,7 @@ extends Node2D
 
 func create_character():
 	var character = load("res://Character.tscn").instance()
-	character.set_position(Vector2(character.x_min, character.y_min))
+	character.set_position(Vector2(50, 55))
 	return character
 
 func _ready():

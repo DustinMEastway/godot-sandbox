@@ -2,20 +2,20 @@ extends KinematicBody2D
 
 var direction = "right"
 var speed = 60
-var xMax = 240
-var xMin = 50
-var YMax = 135
-var YMin = 55
+export (int) var x_max = 240
+export (int) var x_min = 50
+export (int) var y_max = 135
+export (int) var y_min = 55
 
 func _physics_process(delta):
 	# change direction if the character is going too far
-	if (position.x >= xMax and direction == "right"):
+	if (position.x >= x_max and direction == "right"):
 		direction = "down"
-	elif (position.y >= YMax and direction == "down"):
+	elif (position.y >= y_max and direction == "down"):
 		direction = "left"
-	elif (position.x <= xMin and direction == "left"):
+	elif (position.x <= x_min and direction == "left"):
 		direction = "up"
-	elif (position.y <= YMin and direction == "up"):
+	elif (position.y <= y_min and direction == "up"):
 		direction = "right"
 
 	# move character

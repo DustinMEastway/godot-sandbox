@@ -8,7 +8,7 @@
 [node name="WorldMap" type="Node2D"]
 script = ExtResource( 2 )
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="Sky" type="ColorRect" parent="."]
 margin_right = 287.0
 margin_bottom = 162.0
 color = Color( 0.733333, 0.988235, 1, 1 )
@@ -27,3 +27,5 @@ offset = Vector2( 40, 11 )
 position = Vector2( 144, 44 )
 scale = Vector2( 10.5, 1.5 )
 shape = SubResource( 1 )
+
+[node name="VerticalObjects" type="YSort" parent="."]

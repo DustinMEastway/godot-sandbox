@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Hat.png-3e9b4a4080bf48af64bd8ce72797280a.stex"
+path="res://.import/character_shadow.png-374f3c0f360cadf4bb2ceb15b1ae6a71.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Hat.png"
-dest_files=[ "res://.import/Hat.png-3e9b4a4080bf48af64bd8ce72797280a.stex" ]
+source_file="res://sprites/character_shadow.png"
+dest_files=[ "res://.import/character_shadow.png-374f3c0f360cadf4bb2ceb15b1ae6a71.stex" ]
 
 [params]
 

@@ -1,12 +1,14 @@
 extends Node2D
 
+var npc_resource = load("res://non_player_character.tscn")
+
 func create_character():
-	var character = load("res://PlayerCharacter.tscn").instance()
+	var character = load("res://player_character.tscn").instance()
 	character.set_position(Vector2(50, 55))
 	return character
 
 func create_npc(path):
-	var npc = load("res://NonPlayerCharacter.tscn").instance()
+	var npc = npc_resource.instance()
 	npc.path = path
 	return npc
 

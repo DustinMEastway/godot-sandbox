@@ -1,4 +1,4 @@
-extends "res://Character.gd"
+extends "res://character.gd"
 
 var diagonal_speed = speed / sqrt(2)
 

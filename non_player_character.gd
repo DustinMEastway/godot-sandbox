@@ -1,4 +1,4 @@
-extends "res://Character.gd"
+extends "res://character.gd"
 
 # Path for the character to walk (single vector to stand still)
 export var path = [ Vector2(0, 0) ]

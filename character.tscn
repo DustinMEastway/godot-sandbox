@@ -1,9 +1,9 @@
 [gd_scene load_steps=11 format=2]
 
-[ext_resource path="res://Sprites/Character.png" type="Texture" id=1]
-[ext_resource path="res://Sprites/CharacterShadow.png" type="Texture" id=2]
-[ext_resource path="res://Character.gd" type="Script" id=3]
-[ext_resource path="res://Sprites/Hat.png" type="Texture" id=4]
+[ext_resource path="res://sprites/character.png" type="Texture" id=1]
+[ext_resource path="res://sprites/character_shadow.png" type="Texture" id=2]
+[ext_resource path="res://character.gd" type="Script" id=3]
+[ext_resource path="res://sprites/hat.png" type="Texture" id=4]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 3.0

@@ -11,7 +11,7 @@ func create_npc(path):
 	return npc
 
 func _ready():
-	$VerticalObjects.add_child(create_character())
+	$Entities.add_child(create_character())
 	var npc_paths = [
 		[ Vector2(97, 72) ],
 		[ Vector2(176, 57) ],
@@ -19,4 +19,4 @@ func _ready():
 	]
 
 	for npc_path in npc_paths:
-		$VerticalObjects.add_child(create_npc(npc_path))
+		$Entities.add_child(create_npc(npc_path))

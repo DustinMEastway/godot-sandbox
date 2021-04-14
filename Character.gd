@@ -12,7 +12,8 @@ func stop_animations():
 
 func animate_by_destination(destination):
 	if (position.distance_to(destination) == 0):
-		stop_animations()
+		if ($AnimationPlayer.assigned_animation.begins_with("walk_")):
+			stop_animations()
 		return
 
 	var angle = destination.angle_to_point(position)

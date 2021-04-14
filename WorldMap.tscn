@@ -28,4 +28,4 @@ position = Vector2( 144, 44 )
 scale = Vector2( 10.5, 1.5 )
 shape = SubResource( 1 )
 
-[node name="VerticalObjects" type="YSort" parent="."]
+[node name="Entities" type="YSort" parent="."]

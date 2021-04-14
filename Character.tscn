@@ -65,6 +65,7 @@ tracks/3/keys = {
 
 [sub_resource type="Animation" id=3]
 length = 0.8
+loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath("Body:frame")
 tracks/0/interp = 1
@@ -104,6 +105,7 @@ tracks/2/keys = {
 
 [sub_resource type="Animation" id=4]
 length = 0.8
+loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath("Body:frame")
 tracks/0/interp = 1
@@ -143,6 +145,7 @@ tracks/2/keys = {
 
 [sub_resource type="Animation" id=5]
 length = 0.8
+loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath("Body:frame")
 tracks/0/interp = 1
@@ -182,6 +185,7 @@ tracks/2/keys = {
 
 [sub_resource type="Animation" id=6]
 length = 0.8
+loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath("Body:frame")
 tracks/0/interp = 1

@@ -34,9 +34,6 @@ func update_movement():
 	set_directions()
 	var movement = get_movement(directions)
 
-	if (movement == Vector2(0, 0)):
-		return
-
 	animate_by_destination(position + movement)
 	move_and_slide(movement)
 

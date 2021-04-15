@@ -1,0 +1,13 @@
+[gd_scene format=2]
+
+[node name="MainMenu" type="Node2D"]
+
+[node name="StartButton" type="Button" parent="."]
+margin_left = 119.0
+margin_top = 71.0
+margin_right = 169.0
+margin_bottom = 91.0
+text = "Start"
+__meta__ = {
+"_edit_use_anchors_": false
+}

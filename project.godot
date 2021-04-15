@@ -8,15 +8,20 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Node",
+"class": "StateMachine",
+"language": "GDScript",
+"path": "res://state/state_machine.gd"
+} ]
 _global_script_class_icons={
-
+"StateMachine": ""
 }
 
 [application]
 
 config/name="Sandbox"
-run/main_scene="res://world_map.tscn"
+run/main_scene="res://screens/main.tscn"
 config/icon="res://icon.png"
 
 [debug]
